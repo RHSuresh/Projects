@@ -1,0 +1,50 @@
+.applications-page,
+.appointments-page {
+  padding: 80px 20px 20px 20px;
+}
+.table-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.table-container {
+  width: 80%;
+  min-width: 700px;
+  /* border: 2px solid; */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 100%;
+}
+
+tr, th, td{
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+tr:hover {background-color: rgb(80, 133, 255);}
+.non-hover{background-color: black;}
+
+.popup {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  background: rgb(52, 52, 52);
+  padding: 2em;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  z-index: 1000;
+}
+
+.act-button-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+}

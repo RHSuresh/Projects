@@ -1,0 +1,99 @@
+button {
+  position: relative;
+  background: transparent;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+  cursor: pointer;
+  overflow: hidden;
+  background-color:#B39CD0;
+}
+
+
+a {
+  text-decoration: none;
+  color: #71cefc;
+}
+a:hover {
+  color:#a8e1ff;
+}
+a:active {
+  color: #61b1dd;
+}
+
+.user-button-container,
+.admin-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+.user-button {
+  background: linear-gradient(90deg, #E55D87, #5FC3E4);
+}
+.admin-button {
+  background: linear-gradient(45deg, #074ae8, #4743EF, #8432DF, #C020D0, #FC0FC0);
+}
+
+.user-button,
+.admin-button {
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 rgba(255, 255, 255, 1), 0 0 10px rgba(100, 89, 222, 0.8);;
+  transition: box-shadow 0.15s ease-in-out;
+}
+.user-button:hover,
+.admin-button:hover {
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 1);
+}
+.user-button:active,
+.admin-button:active {
+  box-shadow: inset 0 0 10px rgb(175, 175, 175);
+}
+
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  z-index: 1;
+}
+
+.modal {
+  background-color: rgb(25, 25, 25);
+  width: 400px;
+  height: fit-content;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(254, 238, 238, 0.5);
+}
+
+.form-input-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  column-gap: 5%;
+  margin-bottom:200px;
+}
+.form-input-field {
+  color: black;
+  width: 47.5%;
+  height: 40px;
+  padding-left: 5px;
+}
