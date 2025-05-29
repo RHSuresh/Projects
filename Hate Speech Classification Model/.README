@@ -1,0 +1,1 @@
+This project utilizes a Dynamically Generated Hatespeech Dataset found on github. We use a python script to clean and tokenize the data while using logistic regression to train the model to classify dataset entries as hate speech or not.
