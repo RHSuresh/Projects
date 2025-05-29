@@ -14,10 +14,10 @@ This is a group project for creating a Pet Adoption Website. All work is contain
 
 | Name             | NetID    |
 | ---------------- | -------- |
-| Owen Zheng       | owz22001 |
-| Rohit Suresh     | rhs22002 |
-| Zachary Demanche | zad22002 |
-| Jiawen Chen      | jic22026 |
+| Owen Zheng       ||
+| Rohit Suresh     ||
+| Zachary Demanche ||
+| Jiawen Chen      ||
 
 ## Initial Steps (IMPORTANT DON'T SKIP)
 
